@@ -2,6 +2,14 @@
 
 面向 5G 无线接入网 KPI 的异常检测与故障分析演示项目。输入一个 128 个采样点、16 项连续 KPI 的窗口，输出正常/异常、可能故障原因、P1–P4 级别、受影响 KPI 和处理建议。包含中文 Streamlit 仪表盘、窗口回放、JSON 实时检测和可选邮件/WhatsApp 通知。
 
+![RAN Monitor AI 中文仪表盘：固定种子合成演示](assets/dashboard-overview.png)
+
+<details>
+<summary>查看告警分析与明细表截图</summary>
+
+![故障分类图表与告警明细表](assets/dashboard-alerts.png)
+</details>
+
 ## 本项目与参考项目
 
 本项目的功能设计参考了 [TAB-0705/5G_RAN_Anomaly_Detection](https://github.com/TAB-0705/5G_RAN_Anomaly_Detection)，本仓库没有包含该项目的源文件或模型。项目曾使用 [TelecomTS](https://huggingface.co/datasets/AliMaatouk/TelecomTS) 的本地开发子集，但仓库不分发该数据或评估切分；真实数据训练需由使用者从上游单独取得并准备兼容的 JSONL 文件。许可和来源边界见 [DATA_SOURCES.md](DATA_SOURCES.md)。
