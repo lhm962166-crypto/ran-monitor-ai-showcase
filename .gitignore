@@ -1,0 +1,15 @@
+.venv/
+.codex-uv-cache/
+.test-tmp/
+__pycache__/
+*.py[cod]
+.env
+artifacts/
+data/*.jsonl
+data/evaluation_split_*.json
+*.db
+*.sqlite3
+*.sqlite3-*
+.pytest_cache/
+.streamlit/*
+!.streamlit/config.toml

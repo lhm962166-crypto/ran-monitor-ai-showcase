@@ -1,0 +1,14 @@
+[server]
+# Reject oversized uploads before application-level parsing starts.
+maxUploadSize = 10
+
+[browser]
+gatherUsageStats = false
+
+[theme]
+base = "light"
+primaryColor = "#315c49"
+backgroundColor = "#f3f4ee"
+secondaryBackgroundColor = "#e9eee4"
+textColor = "#202b27"
+font = "sans serif"
